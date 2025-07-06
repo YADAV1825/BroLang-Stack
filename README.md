@@ -29,21 +29,54 @@ A beginner-friendly language with C-like vibes and meme syntax:
 ```bro
 letbro a = 10;
 letbro b = 3;
-
 printbro(a + b);
-printbro(a / b);
 
-ifbro(a > b) {
-    printbro(a - b);
+letbro a = 10;
+letbro b = 3;
+printbro(a / b);   
+
+letbro a = 10;
+letbro b = 3;
+printbro(a - b);
+
+letbro a = 10;
+letbro b = 3;
+printbro(a * b);
+
+ifbro (a > b) {
+    printbro(999);
 } elsebro {
-    printbro(a * b);
+    printbro(111);
 }
 
-whilebro(a > 0) {
-    a = a - 1;
+ifbro (a < b) {
+    printbro(222);
+} elsebro {
+    printbro(888); 
 }
+
+ifbro (a == b) {
+    printbro(333);
+} elsebro {
+    printbro(777);  
+}
+
+letbro counter = 0;
+whilebro (counter < 3) {
+    printbro(counter);   
+    letbro counter = counter + 1;
+}
+
 ```
 ---
+
+# Paste this to run the code
+```
+g++ broc.cpp lexer.cpp parser.cpp ast.cpp codegen.cpp emitter.cpp -o broc
+./broc test.bro -o prog.cpp
+g++ compiler_test.cpp RohitVM.cpp RohitUtils.cpp -o run_bro
+./run_bro
+```
 
 # OUTPUT
 ![image](https://github.com/user-attachments/assets/09e26a78-b4ab-4746-b377-1ea6602ac44c)
