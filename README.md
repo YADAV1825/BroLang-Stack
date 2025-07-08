@@ -1,4 +1,4 @@
-# 🧠 BroLang Compiler + RohitVM + 16-bit Virtual CPU 🚀 7.9
+# 🧠 BroLang Compiler + RohitVM + 16-bit Virtual CPU 🚀 
 
 ## 🔧 Built From Scratch by Rohit Yadav
 > 🎓 NIT Jalandhar | 3rd Year  
