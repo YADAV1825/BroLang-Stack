@@ -72,7 +72,7 @@ whilebro (counter < 3) {
 
 # Paste this to run the code
 ```
-g++ broc.cpp lexer.cpp parser.cpp ast.cpp codegen.cpp emitter.cpp -o broc
+g++ broc.cpp lexer.cpp parser.cpp codegen.cpp emitter.cpp -o broc
 ./broc test.bro -o prog.cpp
 g++ compiler_test.cpp RohitVM.cpp RohitUtils.cpp -o run_bro
 ./run_bro
