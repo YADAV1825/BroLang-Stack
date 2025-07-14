@@ -79,7 +79,7 @@ g++ compiler_test.cpp RohitVM.cpp RohitUtils.cpp -o run_bro
 ```
 
 # OUTPUT
- <img width="1130" height="667" alt="image" src="https://github.com/user-attachments/assets/d9719daa-d110-42e5-b838-8f2c882b67c4" />
+![image](https://github.com/user-attachments/assets/09e26a78-b4ab-4746-b377-1ea6602ac44c)
 
 ---
 
